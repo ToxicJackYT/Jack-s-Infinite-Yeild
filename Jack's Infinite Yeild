@@ -6204,7 +6204,7 @@ end)
 Players.LocalPlayer.OnTeleport:Connect(function(State)
 	if State == Enum.TeleportState.Started then
 		if KeepInfYield and queueteleport then
-			queueteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()")
+			queueteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/ToxicJackYT/Jack-s-Infinite-Yeild/main/Jack's%20Infinite%20Yeild'))()")
 		end
 	end
 end)
@@ -12304,7 +12304,7 @@ IYMouse.Move:Connect(checkTT)
 
 task.spawn(function()
 	local success, latestVersionInfo = pcall(function() 
-		local versionJson = game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/version')
+		local versionJson = game:HttpGet('https://raw.githubusercontent.com/ToxicJackYT/Jack-s-Infinite-Yeild/main/Jack's%20Infinite%20Yeild')
 		return HttpService:JSONDecode(versionJson)
 	end)
 	
